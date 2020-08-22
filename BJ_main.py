@@ -100,13 +100,13 @@ if __name__ == "__main__":
     #values: Dict[Union[str, Any], Union[int, Any]] = {'Two':2, 'Three':3, 'Four':4, 'Five':5, 'Six':6, 'Seven':7, 'Eight':8, 'Nine':9, 'Ten':10, 'Jack':10,
     #         'Queen':10, 'King':10, 'Ace':11}
 
-    play_again = True # used at the end to ask play if he/she want to start over an reshuffle
+    play_again = True # used at the end to ask if the player wants to start over and reshuffle
     continue_play = True
 
     while play_again:
 
         # Set up the game
-        play = True  # used after each game session to ask if player wants to continue
+        play = True  # used after each game session to ask if the player wants to continue
         num_of_players = 1
         dealer = Dealer()
         player = []
